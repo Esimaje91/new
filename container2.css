@@ -1,0 +1,60 @@
+body{
+	background-color: white;
+}
+
+#login{
+	margin-top: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.content-wrap{
+	justify-content: center;
+	padding: 0 80px;
+	display: flex;
+	flex-direction: column;
+	background: #1c2e4a;
+	width: 40vw;
+	padding-bottom: 20px;
+	margin: 0 auto; 
+	padding-top: 20px;
+	margin-top: 80px;
+}
+
+.mid{
+	text-align: center;
+	color: white;
+}
+
+.nip{
+	padding-right: 50%;
+	border-radius: 5px;
+}
+
+.content-wrap form div input{
+	margin-left: 20px;
+	
+	width: 50%;
+}
+
+.table{
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+}
